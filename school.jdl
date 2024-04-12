@@ -1,0 +1,24 @@
+
+entity Student {
+	firstName String required minlength(3)
+    lastName String required
+    email String
+    age Integer
+    language Language
+}
+
+entity School {
+	name String required minlength(3)
+    principal String
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH, PORTUGUESE
+}
+
+relationship OneToMany {
+	School{student} to Student
+}
+
+// Set pagination options
+paginate Student with infinite-scroll

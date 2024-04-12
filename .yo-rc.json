@@ -42,7 +42,7 @@
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
     "languages": ["pt-br"],
-    "entities": ["Region", "Country", "Location", "Department", "Task", "Employee", "Job", "JobHistory"],
-    "lastLiquibaseTimestamp": 1712865719000
+    "entities": ["Region", "Country", "Location", "Department", "Task", "Employee", "Job", "JobHistory", "Student", "School"],
+    "lastLiquibaseTimestamp": 1712949539000
   }
 }
