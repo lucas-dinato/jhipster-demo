@@ -1,0 +1,29 @@
+{
+  "blogApp": {
+    "student": {
+      "home": {
+        "title": "Students",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Student",
+        "createOrEditLabel": "Criar ou editar Student",
+        "notFound": "Nenhum Student encontrado"
+      },
+      "created": "Um novo Student foi criado com o identificador {{ param }}",
+      "updated": "Um Student foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Student foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Student {{ id }}?"
+      },
+      "detail": {
+        "title": "Student"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "age": "Age",
+      "language": "Language",
+      "school": "School"
+    }
+  }
+}

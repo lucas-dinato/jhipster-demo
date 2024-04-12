@@ -1,0 +1,26 @@
+{
+  "blogApp": {
+    "school": {
+      "home": {
+        "title": "Schools",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo School",
+        "createOrEditLabel": "Criar ou editar School",
+        "notFound": "Nenhum School encontrado"
+      },
+      "created": "Um novo School foi criado com o identificador {{ param }}",
+      "updated": "Um School foi atualizado com o identificador {{ param }}",
+      "deleted": "Um School foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir School {{ id }}?"
+      },
+      "detail": {
+        "title": "School"
+      },
+      "id": "ID",
+      "name": "Name",
+      "principal": "Principal",
+      "student": "Student"
+    }
+  }
+}
